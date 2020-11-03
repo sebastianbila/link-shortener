@@ -1,0 +1,30 @@
+# OS X
+.DS_Store*
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+.idea/
+config/dev.js
+config/default.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+.env
+build/
