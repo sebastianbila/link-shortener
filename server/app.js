@@ -2,6 +2,7 @@ import express from "express";
 import authRoute from "../routes/auth.route";
 import linkRoute from "../routes/link.route";
 import redirectRoute from "../routes/redirect.route";
+import path from 'path'
 
 const app = express()
 
